@@ -1,0 +1,58 @@
+.header{
+    padding: 50px 30px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(238, 252, 255, 0.913);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    
+        .left{
+            .heading{
+                margin: 0 auto;
+                max-width: 690px;
+                color: #000;
+                font-size: 3.1rem;
+                line-height: 4.1rem;
+                font-weight: bold;
+                letter-spacing: 1px;
+        
+                span{
+                    background-clip: text;
+                    background-image: linear-gradient(to right, #239ce2, #1369b9);
+                    color: transparent;
+                }
+            }
+        }
+    
+        .right{
+            img{
+                width: 600px;
+            }
+        }
+    }
+    .button{
+        button{
+            background-color: #0988ff88;
+            height: 53px;
+            width: 180px;
+            font-size: 25px;
+            font-weight: 550;
+            border-radius: 990px;
+            border: none;
+            cursor: pointer;
+
+            a:-webkit-any-link {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
